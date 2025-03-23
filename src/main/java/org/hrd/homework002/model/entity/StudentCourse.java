@@ -1,7 +1,8 @@
 package org.hrd.homework002.model.entity;
 
+import lombok.Data;
+
+@Data
 public class StudentCourse {
-    private Integer id;
-    private Integer studentId;
-    private Integer courseId;
+    private Course course;
 }
